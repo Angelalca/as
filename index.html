@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROCENOR</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="loader">
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+        </div>
+    </div>
+
+    <!-- Header y Navegación -->
+    <header class="header">
+        <div class="container">
+            <div class="logo-container">
+                <img src="LOGO.png" alt="Logo ElectroConstrucción" class="logo">
+                <div class="logo-text">
+                    <h1>PROCENOR S.A.C.</h1>
+                    <p>Construyendo Innovación en el Norte</p>
+                    <p>RUC: 20614146576</p>
+                </div>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#inicio" class="nav-link active">Inicio</a></li>
+                    <li class="nav-item"><a href="#servicios" class="nav-link">Servicios</a></li>
+                    <li class="nav-item"><a href="#proyectos" class="nav-link">Proyectos</a></li>
+                    <li class="nav-item"><a href="#nosotros" class="nav-link">Nosotros</a></li>
+                    <li class="nav-item"><a href="#clientes" class="nav-link">Clientes</a></li>
+                    <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+            <!-- Agrega esto dentro del <header> después del nav -->
+<div class="theme-switcher">
+    <input type="checkbox" id="theme-toggle" class="theme-toggle">
+    <label for="theme-toggle" class="theme-label">
+        <i class="fas fa-sun"></i>
+        <i class="fas fa-moon"></i>
+        <span class="theme-ball"></span>
+    </label>
+</div>
+        </div>
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="hero" id="inicio">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h2 class="hero-title">Expertos en Construcción y Electricidad Industrial</h2>
+            <p class="hero-subtitle">Más de 25 años iluminando y construyendo el futuro</p>
+            <div class="hero-buttons">
+                <a href="#contacto" class="btn btn-primary">Solicitar Presupuesto</a>
+                <a href="#servicios" class="btn btn-secondary">Nuestros Servicios</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </section>
+
+
+    <!-- Sección de Estadísticas -->
+    <section class="section stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <div class="stat-content">
+                        <span class="stat-number" data-count="2000">0</span>
+                        <span class="stat-text">Años de Experiencia</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-project-diagram"></i>
+                    </div>
+                    <div class="stat-content">
+                        <span class="stat-number" data-count="6000">0</span>
+                        <span class="stat-text">Proyectos Completados</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="stat-content">
+                        <span class="stat-number" data-count="7000">0</span>
+                        <span class="stat-text">Profesionales Calificados</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="stat-content">
+                        <span class="stat-number" data-count="7000">0</span>
+                        <span class="stat-text">Premios y Reconocimientos</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Servicios -->
+    <section class="section services" id="servicios">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nuestros Servicios</h2>
+                <p class="section-subtitle">Soluciones integrales para cada fase de su proyecto</p>
+                <div class="divider"></div>
+            </div>
+            <div class="services-grid">
+                <!-- Servicio 1 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3 class="service-title">Instalaciones Eléctricas</h3>
+                    <p class="service-description">
+                        Diseño e implementación de sistemas eléctricos residenciales, comerciales e industriales cumpliendo con los más altos estándares de seguridad.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check-circle"></i> Cableado estructurado</li>
+                        <li><i class="fas fa-check-circle"></i> Tableros de distribución</li>
+                        <li><i class="fas fa-check-circle"></i> Sistemas de puesta a tierra</li>
+                        <li><i class="fas fa-check-circle"></i> Iluminación eficiente</li>
+                    </ul>
+                    <a href="#" class="btn btn-service">Más información</a>
+                </div>
+                
+                <!-- Servicio 2 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-solar-panel"></i>
+                    </div>
+                    <h3 class="service-title">Energías Renovables</h3>
+                    <p class="service-description">
+                        Implementación de sistemas fotovoltaicos para generación de energía limpia y reducción de costos operativos.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check-circle"></i> Paneles solares</li>
+                        <li><i class="fas fa-check-circle"></i> Sistemas on-grid/off-grid</li>
+                        <li><i class="fas fa-check-circle"></i> Bombeo solar</li>
+                        <li><i class="fas fa-check-circle"></i> Estudios de eficiencia</li>
+                    </ul>
+                    <a href="#" class="btn btn-service">Más información</a>
+                </div>
+                
+                <!-- Servicio 3 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3 class="service-title">Construcción Civil</h3>
+                    <p class="service-description">
+                        Desarrollo de proyectos de construcción desde la planificación hasta la entrega llave en mano.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check-circle"></i> Edificaciones comerciales</li>
+                        <li><i class="fas fa-check-circle"></i> Viviendas multifamiliares</li>
+                        <li><i class="fas fa-check-circle"></i> Obras industriales</li>
+                        <li><i class="fas fa-check-circle"></i> Remodelaciones</li>
+                    </ul>
+                    <a href="#" class="btn btn-service">Más información</a>
+                </div>
+                
+                <!-- Servicio 4 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3 class="service-title">Mantenimiento Integral</h3>
+                    <p class="service-description">
+                        Programas de mantenimiento preventivo y correctivo para garantizar el óptimo funcionamiento de sus instalaciones.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check-circle"></i> Mantenimiento eléctrico</li>
+                        <li><i class="fas fa-check-circle"></i> Mantenimiento predictivo</li>
+                        <li><i class="fas fa-check-circle"></i> Inspecciones termográficas</li>
+                        <li><i class="fas fa-check-circle"></i> Planes anuales</li>
+                    </ul>
+                    <a href="#" class="btn btn-service">Más información</a>
+                </div>
+                
+                <!-- Servicio 5 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3 class="service-title">Automatización</h3>
+                    <p class="service-description">
+                        Sistemas de control y automatización para procesos industriales, edificios inteligentes y domótica residencial.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check-circle"></i> PLCs y SCADA</li>
+                        <li><i class="fas fa-check-circle"></i> Sistemas BMS</li>
+                        <li><i class="fas fa-check-circle"></i> Control de accesos</li>
+                        <li><i class="fas fa-check-circle"></i> IoT industrial</li>
+                    </ul>
+                    <a href="#" class="btn btn-service">Más información</a>
+                </div>
+                
+                <!-- Servicio 6 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-fire-extinguisher"></i>
+                    </div>
+                    <h3 class="service-title">Seguridad y Emergencias</h3>
+                    <p class="service-description">
+                        Instalación y mantenimiento de sistemas contra incendios y planes de emergencia según normativa vigente.
+                    </p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check-circle"></i> Detección de incendios</li>
+                        <li><i class="fas fa-check-circle"></i> Sistemas de supresión</li>
+                        <li><i class="fas fa-check-circle"></i> Señalización</li>
+                        <li><i class="fas fa-check-circle"></i> Planes de evacuación</li>
+                    </ul>
+                    <a href="#" class="btn btn-service">Más información</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Proyectos -->
+    <section class="section projects" id="proyectos">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Proyectos Destacados</h2>
+                <p class="section-subtitle">Algunos de nuestros trabajos más relevantes</p>
+                <div class="divider"></div>
+            </div>
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="electricidad">Electricidad</button>
+                <button class="filter-btn" data-filter="construccion">Construcción</button>
+                <button class="filter-btn" data-filter="renovable">Renovables</button>
+                <button class="filter-btn" data-filter="industrial">Industrial</button>
+            </div>
+            <div class="projects-grid">
+                <!-- Proyecto 1 -->
+                <div class="project-card" data-category="electricidad,industrial">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1605152276897-4f618f831968?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Planta Industrial Lima">
+                        <div class="project-overlay">
+                            <h3 class="project-title">Planta Industrial Lima</h3>
+                            <p class="project-category">Electricidad Industrial</p>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <h3>Instalación Eléctrica Completa</h3>
+                        <p>Implementación de sistema eléctrico para nueva planta de manufactura en Lima, incluyendo tableros principales, subestación y sistema de emergencia.</p>
+                        <div class="project-meta">
+                            <span><i class="fas fa-calendar-alt"></i> 2022</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Lima, Perú</span>
+                        </div>
+                        <a href="#" class="btn btn-project">Ver detalles</a>
+                    </div>
+                </div>
+                
+                <!-- Proyecto 2 -->
+                <div class="project-card" data-category="construccion">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Edificio Corporativo San Isidro">
+                        <div class="project-overlay">
+                            <h3 class="project-title">Edificio Corporativo</h3>
+                            <p class="project-category">Construcción Civil</p>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <h3>Edificio Corporativo San Isidro</h3>
+                        <p>Construcción de edificio de 15 pisos con estándares LEED, incluyendo sistema eléctrico inteligente y eficiencia energética.</p>
+                        <div class="project-meta">
+                            <span><i class="fas fa-calendar-alt"></i> 2021</span>
+                            <span><i class="fas fa-map-marker-alt"></i> San Isidro, Perú</span>
+                        </div>
+                        <a href="#" class="btn btn-project">Ver detalles</a>
+                    </div>
+                </div>
+                
+                <!-- Proyecto 3 -->
+                <div class="project-card" data-category="renovable,electricidad">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Granja Solar Arequipa">
+                        <div class="project-overlay">
+                            <h3 class="project-title">Granja Solar</h3>
+                            <p class="project-category">Energías Renovables</p>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <h3>Granja Solar Arequipa</h3>
+                        <p>Instalación de sistema fotovoltaico de 2MW para planta minera, incluyendo inversores, transformadores y conexión a red.</p>
+                        <div class="project-meta">
+                            <span><i class="fas fa-calendar-alt"></i> 2020</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Arequipa, Perú</span>
+                        </div>
+                        <a href="#" class="btn btn-project">Ver detalles</a>
+                    </div>
+                </div>
+                
+                <!-- Proyecto 4 -->
+                <div class="project-card" data-category="industrial,construccion">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1513828583688-c52646db42da?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Planta de Procesos Trujillo">
+                        <div class="project-overlay">
+                            <h3 class="project-title">Planta de Procesos</h3>
+                            <p class="project-category">Industrial</p>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <h3>Planta de Procesos Trujillo</h3>
+                        <p>Construcción y equipamiento eléctrico de planta procesadora de alimentos, con sistemas de automatización y control de procesos.</p>
+                        <div class="project-meta">
+                            <span><i class="fas fa-calendar-alt"></i> 2019</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Trujillo, Perú</span>
+                        </div>
+                        <a href="#" class="btn btn-project">Ver detalles</a>
+                    </div>
+                </div>
+                
+                <!-- Proyecto 5 -->
+                <div class="project-card" data-category="electricidad">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Hospital Nacional">
+                        <div class="project-overlay">
+                            <h3 class="project-title">Hospital Nacional</h3>
+                            <p class="project-category">Electricidad Especializada</p>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <h3>Sistema Eléctrico Hospitalario</h3>
+                        <p>Modernización del sistema eléctrico con grupos electrógenos, UPS y sistema de tierra técnica para áreas críticas de hospital.</p>
+                        <div class="project-meta">
+                            <span><i class="fas fa-calendar-alt"></i> 2018</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Lima, Perú</span>
+                        </div>
+                        <a href="#" class="btn btn-project">Ver detalles</a>
+                    </div>
+                </div>
+                
+                <!-- Proyecto 6 -->
+                <div class="project-card" data-category="construccion">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Conjunto Residencial Miraflores">
+                        <div class="project-overlay">
+                            <h3 class="project-title">Residencial Miraflores</h3>
+                            <p class="project-category">Construcción Civil</p>
+                        </div>
+                    </div>
+                    <div class="project-details">
+                        <h3>Conjunto Residencial Miraflores</h3>
+                        <p>Construcción de 5 torres residenciales con sistema eléctrico inteligente, áreas comunes y estacionamiento subterráneo.</p>
+                        <div class="project-meta">
+                            <span><i class="fas fa-calendar-alt"></i> 2017</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Miraflores, Perú</span>
+                        </div>
+                        <a href="#" class="btn btn-project">Ver detalles</a>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-cta">
+                <a href="#" class="btn btn-primary">Ver todos los proyectos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Quiénes Somos -->
+    <section class="section about" id="nosotros">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <div class="section-header">
+                        <h2 class="section-title">Quiénes Somos</h2>
+                        <p class="section-subtitle">Nuestra historia y valores</p>
+                        <div class="divider"></div>
+                    </div>
+                    <div class="about-text">
+                        <p>
+                            ElectroConstrucción S.A. es una empresa líder en el sector de construcción e instalaciones eléctricas, fundada en 1995 con el objetivo de ofrecer soluciones integrales de alta calidad.
+                        </p>
+                        <p>
+                            Nuestro equipo multidisciplinario de ingenieros, arquitectos y técnicos especializados trabaja bajo los más altos estándares de seguridad y calidad, garantizando la satisfacción de nuestros clientes en cada proyecto.
+                        </p>
+                        <p>
+                            Hemos participado en importantes proyectos a nivel nacional, destacándonos por nuestra capacidad técnica, cumplimiento de plazos y atención personalizada.
+                        </p>
+                    </div>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <i class="fas fa-bullseye"></i>
+                            <div class="feature-content">
+                                <h4>Misión</h4>
+                                <p>Proporcionar soluciones integrales en construcción y electricidad que superen las expectativas de nuestros clientes, mediante personal calificado y tecnología de vanguardia.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-eye"></i>
+                            <div class="feature-content">
+                                <h4>Visión</h4>
+                                <p>Ser reconocidos como la empresa líder en construcción e instalaciones eléctricas en el país, destacando por nuestra innovación, calidad y compromiso con el desarrollo sostenible.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-gem"></i>
+                            <div class="feature-content">
+                                <h4>Valores</h4>
+                                <p>Integridad, Excelencia, Innovación, Seguridad, Responsabilidad Social y Compromiso con el Medio Ambiente.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-container">
+                        <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Oficinas ElectroConstrucción">
+                        <div class="image-overlay">
+                            <div class="overlay-content">
+                                <i class="fas fa-building"></i>
+                                <h3>Nuestras Instalaciones</h3>
+                                <p>Modernas oficinas y talleres equipados con tecnología de punta</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Clientes -->
+    <section class="section clients" id="clientes">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nuestros Clientes</h2>
+                <p class="section-subtitle">Empresas que confían en nuestro trabajo</p>
+                <div class="divider"></div>
+            </div>
+            <div class="clients-slider">
+                <div class="client-logo">
+                    <img src="https://images.unsplash.com/photo-1614680376573-df3480f0c6ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=150&q=80" alt="Cliente 1">
+                </div>
+                <div class="client-logo">
+                    <img src="https://images.unsplash.com/photo-1614680376573-df3480f0c6ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=150&q=80" alt="Cliente 2">
+                </div>
+                <div class="client-logo">
+                    <img src="https://images.unsplash.com/photo-1614680376573-df3480f0c6ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=150&q=80" alt="Cliente 3">
+                </div>
+                <div class="client-logo">
+                    <img src="https://images.unsplash.com/photo-1614680376573-df3480f0c6ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=150&q=80" alt="Cliente 4">
+                </div>
+                <div class="client-logo">
+                    <img src="https://images.unsplash.com/photo-1614680376573-df3480f0c6ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=150&q=80" alt="Cliente 5">
+                </div>
+                <div class="client-logo">
+                    <img src="https://images.unsplash.com/photo-1614680376573-df3480f0c6ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=150&q=80" alt="Cliente 6">
+                </div>
+            </div>
+            <div class="testimonials">
+                <div class="section-header">
+                    <h3 class="section-title">Testimonios</h3>
+                    <p class="section-subtitle">Lo que dicen nuestros clientes</p>
+                </div>
+                <div class="testimonials-slider">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left"></i>
+                            <p>
+                                ElectroConstrucción realizó la instalación eléctrica completa de nuestra nueva planta industrial. Destacamos su profesionalismo, cumplimiento de plazos y la calidad del trabajo realizado.
+                            </p>
+                            <i class="fas fa-quote-right"></i>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&auto=format&fit=crop&w=80&q=80" alt="Juan Pérez">
+                            <div class="author-info">
+                                <h4>Juan Pérez</h4>
+                                <p>Gerente General, Industrias Alfa</p>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left"></i>
+                            <p>
+                                Contratamos a ElectroConstrucción para el mantenimiento eléctrico preventivo de nuestros centros comerciales. Su servicio es impecable y han logrado reducir nuestros costos operativos.
+                            </p>
+                            <i class="fas fa-quote-right"></i>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=80&q=80" alt="María Gómez">
+                            <div class="author-info">
+                                <h4>María Gómez</h4>
+                                <p>Directora de Operaciones, MallGroup</p>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <i class="fas fa-quote-left"></i>
+                            <p>
+                                El proyecto de energía solar que realizaron para nuestra empresa ha superado todas las expectativas. Excelente asesoría técnica y seguimiento post-venta.
+                            </p>
+                            <i class="fas fa-quote-right"></i>
+                        </div>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1542103749-8ef59b94f47e?ixlib=rb-1.2.1&auto=format&fit=crop&w=80&q=80" alt="Carlos Ruiz">
+                            <div class="author-info">
+                                <h4>Carlos Ruiz</h4>
+                                <p>Gerente de Sostenibilidad, Minera Sur</p>
+                                <div class="rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto -->
+    <section class="section contact" id="contacto">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contáctenos</h2>
+                <p class="section-subtitle">Estamos listos para atender su proyecto</p>
+                <div class="divider"></div>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Dirección</h3>
+                            <p>Urb. Enace I Etapa Mz. D Lote 02, Piura, Perú</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Teléfonos</h3>
+                            <p>+51 977514245</p>
+                            <p>+51 951441510</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Correo Electrónico</h3>
+                            <p>procenor@procenor.com</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Horario de Atención</h3>
+                            <p>Lunes a Viernes: 8:00 am - 6:00 pm</p>
+                            <p>Sábados: 8:00 am - 12:00 pm</p>
+                        </div>
+                    </div>
+                    <div class="contact-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.965719424622!2d-77.0459427242375!3d-12.04637308813485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDAyJzQ2LjkiUyA3N8KwMDInMzMuOSJX!5e0!3m2!1ses!2spe!4v1620000000000!5m2!1ses!2spe" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="formContacto">
+                        <div class="form-group">
+                            <label for="nombre">Nombre Completo *</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Correo Electrónico *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="telefono">Teléfono *</label>
+                                <input type="tel" id="telefono" name="telefono" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="empresa">Empresa</label>
+                            <input type="text" id="empresa" name="empresa">
+                        </div>
+                        <div class="form-group">
+                            <label for="servicio">Servicio de Interés *</label>
+                            <select id="servicio" name="servicio" required>
+                                <option value="">Seleccione un servicio</option>
+                                <option value="electricidad">Instalaciones Eléctricas</option>
+                                <option value="construccion">Construcción Civil</option>
+                                <option value="sistemautilizacion">Mantenimiento Preventivo de Sistema de Utilización</option>
+                                <option value="transformador">Mantenimiento de Transformador</option>
+                                <option value="mantenimiento">Diseño y Consultoría</option>
+                                <option value="certificadopuesta">Certificados de Puesta a Tierra</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje *</label>
+                            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                        </div>
+                        <div class="form-submit">
+                            <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col footer-about">
+                    <div class="footer-logo">
+                        <img src="LOGO.png" alt="Logo ElectroConstrucción">
+                    </div>
+                    <p>
+                        Somos una empresa líder en construcción e instalaciones eléctricas, comprometida con la calidad, seguridad e innovación.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col footer-links">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#proyectos">Proyectos</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#clientes">Clientes</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col footer-services">
+                    <h3>Nuestros Servicios</h3>
+                    <ul>
+                        <li><a href="#">Instalaciones Eléctricas</a></li>
+                        <li><a href="#">Construcción Civil</a></li>
+                        <li><a href="#">Mantenimiento de transformadores</a></li>
+                        <li><a href="#">Sistemas de Utilización</a></li>
+                        <li><a href="#">Expedientes Técnicos</a></li>
+                        <li><a href="#">Arquitectura</a></li>
+                        <li><a href="#">Diseño y Consultoría</a></li>
+                        <li><a href="#">Certificaciones</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col footer-contact">
+                    <h3>Contacto</h3>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> Urb. Enace I Etapa Mz. D Lote 02, Piura, Perú</li>
+                        <li><i class="fas fa-mobile-alt"></i> +51 951441510 - +51 977514245</li>
+                        <li><i class="fas fa-envelope"></i> procenor@procenor.com</li>
+                        <li><i class="fas fa-clock"></i> Lun-Vie: 8:00 am - 6:00 pm</li>
+                        <li><i class="fas fa-clock"></i> Sáb: 8:00 am - 12:00 pm</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p>&copy; 2025 PROCENOR S.A.C. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botón de WhatsApp -->
+    <div class="whatsapp-btn">
+        <a href="https://wa.me/51977514245" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- Botón de Subir -->
+    <div class="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
